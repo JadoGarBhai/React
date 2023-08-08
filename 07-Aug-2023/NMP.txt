@@ -1,2 +1,27 @@
-What is Module Packages?
-	
+What is Package Manager?
+	A package manager is a tool developers use to automatically find, download, install, configure, upgrade, and uninstall a computer's packages.
+
+Types of Package Manager:
+	There are various types of package managers, but let's focus on three specific ones:
+		1- NPM (Node Package Manager)
+		2- YARN (Yet Another Resource Negotiator)
+		3- NPX (Node Package Execute)
+
+1- NPM (Node Package Manager):
+	This is a platform where developers can easily add and utilize packages for their specific needs.
+	It's seamlessly integrated into Node.js for convenient installation.
+
+How to install npm package in your system?
+	1- Open CMD or terminal.
+	2- Write command 'npm init'.
+	3- Write name '(npm) package-name'
+	4- 		|
+	5- 		|
+	6- 		|
+	7- 		|
+	8- 		|
+	9- 		|	
+
+How to use npm package?
+	All instructions are already provided alongside the npm packages. 
+Each package has its own unique syntax for usage.
