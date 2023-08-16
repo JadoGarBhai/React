@@ -7,3 +7,7 @@ Package Installation:
 
 Package Uninstallation:
 	1- npm uninstall bootstrap					("bootstrap" = Any Package Name Which You Want To Uninstall)
+
+Deploy on Netlify:
+	1- npm run build
+	2- Deploy "build" Folder on Netlify.
