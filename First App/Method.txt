@@ -1,0 +1,9 @@
+Method:
+	1- npx create-react-app My-App --use -npm			("My-App" = Any App Name Which You Want To Create)
+	2- npm start 							(To Start React App)
+
+Package Installation:
+	1- npm install bootstrap					("bootstrap" = Any Package Name Which You Want To Install) 
+
+Package Uninstallation:
+	1- npm uninstall bootstrap					("bootstrap" = Any Package Name Which You Want To Uninstall)
