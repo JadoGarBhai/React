@@ -1,4 +1,4 @@
-Method:
+Method (Start and Deploy React App):
 	1- npx create-react-app My-App --use -npm			("My-App" = Any App Name Which You Want To Create)
 	2- npm start 							(To Start React App)
 
