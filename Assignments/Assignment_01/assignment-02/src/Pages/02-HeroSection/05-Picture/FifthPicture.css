@@ -1,0 +1,46 @@
+.mainBox5{
+    background-color: #f6f6f6;
+}
+
+
+.box5Wrapper{
+    margin-inline: auto;
+    height: 267px;
+    width: 1130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assesets/pic.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: relative;
+}
+
+.headingSection{  
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    justify-content: center;
+    width: 420px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -190px;
+}
+
+.lastButton{
+    position: absolute;
+    bottom: 115px;
+    width: 300px;
+}
+
+.lBtn{
+    background-color: #5865f2;
+    color: white;
+}
+
+.lBtn:hover{
+    background-color: #7983f5;
+    color: white;
+}

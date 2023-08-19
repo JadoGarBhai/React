@@ -1,0 +1,27 @@
+.mainBox2{
+    background-color: #f6f6f6;
+}
+
+.box2Wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 630px;
+}
+
+.textSection2 > h2{
+    width: 420px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+
+.textSection2 > p{
+    width: 420px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 25px;
+}

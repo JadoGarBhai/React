@@ -1,82 +1,164 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar{
+.container{
+    width: 1260px;
+    margin-inline: auto;
+}
+
+.headerSection{
+    background-image: url("./assesets/asset0.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #404eed;
+    height: 630px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbarSection{
+    height: 75px;
     display: flex;
-    border-bottom: 2px solid whitesmoke;
-    height: 60px;
-    width: 100%;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.pic{
-    width: 70%;
-    margin: auto 0px;
-    padding-left: 50px;
-}
-.nav{
-    width: 30%;
-    align-items: flex-end;
-    margin: auto 0px;
+.logoSection{
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    color: white;
+    cursor: pointer;
 }
 
-.nav1{
-    display: inline-flex;
-    padding: 15px;
+.logoSection > img{
+    height: 25px;
 }
-.nav2{
-    position: absolute;
-    left: 865px;
-    height: 54px;
-    border-bottom: 2px solid black;
-    text-align: center;
+.logoSection > span{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
+.navSection{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+  
+}
 
-/* Box 1 */
-.bold{
-    position: absolute;
-    left: 19%;
-    top: 85px;
-    display: flexbox;
-    width: 60%;
+.navSection li{
+    display: inline;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.buttonSection{
+    display: flex;
+}
+
+.buttonSection > button{
+    height: 38px;
+    width: 60px;
+    top: 25px;
+    border-radius: 25px;
+    background-color: white;
     border-style: none;
-    flex-wrap: wrap;
-    font-weight: 700;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+
+.buttonSection > button:hover{
+    color: #5865f2;
+}
+
+
+
+/* 2nd-header */
+.secondHeader{
+    height: 555px;
+}
+
+
+.heading1{
+    text-align: center;
     font-size: 27px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Seymour One', sans-serif;
+    width: 800px;
+    margin-inline: auto;  
+    margin-top: 95px;
+}
+
+.para1{
     text-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    width: 750px;
+    line-height: 29px;
+    font-size: 17px;
+    margin-inline: auto;  
+    margin-top: 30px;
 }
 
-/* Box 2 */
-.box2{
-    display: flexbox;
-    position: absolute;
-    left: 24%;
-    top: 300px;
-    width: 50%;
-    border-style: none;
-    flex-wrap: wrap;
-    font-weight: 300;
-    font-size: 25px;
-    text-align: center;
+.buttonSection2{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    justify-content: center;
 }
 
-
-/* Yellow Picture  */
-.yellow{
-    display: flexbox;
-    position: absolute;
-    left: 0%;
-    top: 390px;
-    width: 100%;
-    height: 710px;
-    border-style: none;
+.buttonSection2 > button{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    height: 58px;
+    width: 320px;
+    border-radius: 50px;
+    border-style: none; 
+    cursor: pointer;
 }
-.yp{
-    width: 100%;
-    height: 705px;
+
+.btn2{
+    background-color: #23272a;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: #36393f;
+}
+
+.btn1{
+    color: #23272a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn1:hover{
+    color: #5865f2;
+}
+
+.imageSection{
+    margin-top: -210px;
+    display: flex;
+}
+
+.img1{
+    margin-left: -360px;
+    margin-top: 43px;
+}
+
+.img2{
+    margin-left: 710px;
+    height: 360px;
+    width: 340px;
+    margin-top: 35px;
 }

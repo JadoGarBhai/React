@@ -1,0 +1,42 @@
+.mainBox4{
+    background-color: #f6f6f6;
+}
+
+.boxWrapper4{
+    height: 1080px;
+    display: flex;
+    position: relative;
+}
+
+.textSection4{
+    top: 130px;
+    width: 1180px;
+}
+
+.textSection4 > h2{
+    font-family: 'Seymour One', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.textSection4 > p{
+    font-family: 'Noto Sans', sans-serif;
+    width: 1060px;
+    font-size: 19px;
+    font-weight: lighter;
+    line-height: 35px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 65px;
+}
+
+.imgSection4{
+    position: absolute;
+    top: 265px;
+    width: 1180px;
+}
+
+.imgSection4 > img{
+    width: 1180px;
+}

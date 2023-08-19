@@ -1,0 +1,22 @@
+.box1Wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 630px;
+}
+
+.textSection1 > h2{
+    width: 420px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+
+.textSection1 > p{
+    width: 420px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 25px;
+}
