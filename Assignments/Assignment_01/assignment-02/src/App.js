@@ -5,6 +5,7 @@ import SecondPicture from './Pages/02-HeroSection/02-Picture/SecondPicture';
 import ThirdPicture from './Pages/02-HeroSection/03-Picture/ThirdPicture';
 import FourthPicture from './Pages/02-HeroSection/04-Picture/FourthPicture';
 import FifthPicture from './Pages/02-HeroSection/05-Picture/FifthPicture';
+import Footer from './Pages/03-Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ThirdPicture/>
       <FourthPicture/>
       <FifthPicture/>
+      <Footer/>
     </>
   );
 }

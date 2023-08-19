@@ -162,3 +162,17 @@
     width: 340px;
     margin-top: 35px;
 }
+
+
+                    /* Responsive.  */
+    
+@media  screen and (max-width: 768px) {
+    
+    .navSection{
+        display: none;
+    }
+
+    .headerSection{
+        max-width: 765px;
+    }
+}

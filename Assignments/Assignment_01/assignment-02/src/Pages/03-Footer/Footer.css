@@ -1,0 +1,109 @@
+.footer{
+    height: 543px;
+    background-color: #23272a;
+    color: white;
+}
+
+.footerWrapper1{
+    width: 1260px;
+    height: 328px;
+    padding-top: 80px;
+}
+
+.footer1{
+    display: flex;
+}
+
+.footerHeading{
+    width: 280px;
+    height: 272px;
+    margin-left: 40px;
+}
+
+.footerHeading > h3{
+    width: 280px;
+    height: 60px;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 25px;
+    color: #5865f2;
+    display: flex;
+    align-items: center;
+}
+
+.line2{
+    margin-top: 24px;
+    width: 280px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.flag{
+    width: 23px;
+    height: 15px;
+}
+
+.arrow{
+    width: 10px;
+    height: 8px;
+}
+
+
+.fIcons{
+    width: 280px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin-top: 24px;
+}
+
+.footerText{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 120px;
+    gap: 20px;
+}
+
+.fBox{
+    width: 180px;
+    height: 288px;
+}
+
+.footerText li {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    list-style: none;
+    line-height: 35px
+}
+
+.footer2{
+    border-top: 2px solid #5865f2;
+    width: 1260px;
+    height: 71px;
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+.buttonSection5 > button{
+    height: 38px;
+    width: 80px;
+    margin-top: 35px;
+    border-radius: 25px;
+    background-color: #5865f2;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+
+.buttonSection5 > button:hover{
+    color: white;
+    background-color: #7983f5;
+}
