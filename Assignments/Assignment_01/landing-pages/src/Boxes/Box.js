@@ -1,13 +1,14 @@
 import "./Box.css";
 
 
-export default function Box(num){
+export default function Box(data){
     return (
         <>
             <div className="box">
                 <div className="container">
-                    <h2>Page_{num}</h2>
-                    <a href="https://react-assignment-01-1.netlify.app/">Click Here</a>
+                    <h2>Page_{data.num}</h2>
+
+                    <button><a href={data.link} target="_blank" rel="noopener noreferrer">Live Demo</a></button>
                 </div>
             </div>
         </>
