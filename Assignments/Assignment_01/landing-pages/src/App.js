@@ -6,6 +6,7 @@ function App() {
     <>
       <Box num={1} link={"https://react-assignment-01-1.netlify.app/"}/>
       <Box num={2} link={"https://react-assignment-01-2.netlify.app/"}/>
+      <Box num={2} link={"https://react-assignment-01-2.netlify.app/"}/>
     </>
   );
 }
