@@ -15,3 +15,41 @@
   font-size: 0.9rem;
   margin-bottom: 0;
 }
+
+/* .hidden {
+  display: none;
+}
+
+.bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwbobV_Gnfz4DGx_y2RuR9o1CCMChwY0zxmQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 460px;
+  width: 100%;
+}
+
+.mt {
+  background-color: inherit;
+  border: 3px solid #fff;
+  height: 200px;
+  width: 200px;
+  margin-inline: auto;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  justify-self: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.mt:hover {
+  background-color: inherit;
+}
+
+.mt > p {
+  margin-block: auto;
+  margin-inline: auto;
+} */
