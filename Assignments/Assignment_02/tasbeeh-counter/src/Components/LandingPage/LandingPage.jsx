@@ -4,6 +4,7 @@ import Tasbeeh from "../Button/Tasbeeh";
 
 function LandingPage() {
   const [counter, setCounter] = useState(0);
+  const [isHidden, setIsHidden] = useState(true);
 
   const add = () => {
     setCounter(counter + 1);
@@ -11,6 +12,10 @@ function LandingPage() {
 
   const reset = () => {
     setCounter(0);
+  };
+
+  const toggle = () => {
+    setIsHidden(!isHidden);
   };
 
   return (
@@ -24,7 +29,7 @@ function LandingPage() {
           <h2 className="col-12 pt-3">Popular Tasbeeh</h2>
           <div className="container">
             <div className={styles.tesbeh}>
-              <Tasbeeh name={"Allah o Akbar"} />
+              <Tasbeeh name={"Allah o Akbar"} onClick={toggle} />
               <Tasbeeh name={"SubhanAllah"} />
               <Tasbeeh name={"Astagfirullah"} />
               <Tasbeeh name={"Alhamdulillah"} />
