@@ -1,11 +1,20 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [result, setResult] = useState("Result");
   return (
     <>
       <div>
         <input type="text" name="result1" id="result1" readOnly />
-        <input type="text" name="result2" id="result2" readOnly />
+
+        <input
+          type="text"
+          name="result2"
+          id="result2"
+          readOnly
+          value={result}
+        />
       </div>
       <button>9</button>
       <button>8</button>
